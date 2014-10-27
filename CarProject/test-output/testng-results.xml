@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30" started-at="2014-09-28T23:50:36Z" finished-at="2014-09-28T23:50:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30" started-at="2014-09-28T23:50:36Z" finished-at="2014-09-28T23:50:36Z">
+      <class name="com.car.framwork.parts.Parts">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.car.framwork.parts.Parts@2b3cfcf1]" name="beforeClass" is-config="true" duration-ms="7" started-at="2014-09-28T19:50:36Z" finished-at="2014-09-28T19:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="sayHello()[pri:0, instance:com.car.framwork.parts.Parts@2b3cfcf1]" name="sayHello" duration-ms="11" started-at="2014-09-28T19:50:36Z" finished-at="2014-09-28T19:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sayHello -->
+      </class> <!-- com.car.framwork.parts.Parts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
