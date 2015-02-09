@@ -11,6 +11,8 @@ public class ReviewClassVoidMethod {
 		int i = 3;
 		modifyValue(i);
 		System.out.println(i);
+		System.out.println("hello");
+		System.out.println("tellme ");	
 	}
 	
 	
