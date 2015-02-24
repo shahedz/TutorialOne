@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6880" started-at="2015-02-09T01:20:36Z" finished-at="2015-02-09T01:20:43Z">
+  <suite name="Default suite" duration-ms="63223" started-at="2015-02-23T02:34:19Z" finished-at="2015-02-23T02:35:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6880" started-at="2015-02-09T01:20:36Z" finished-at="2015-02-09T01:20:43Z">
-      <class name="com.project.framework.main.BaseClass">
-        <test-method status="PASS" signature="brforeClass()[pri:0, instance:com.project.framework.main.BaseClass@3c9d026d]" name="brforeClass" is-config="true" duration-ms="8" started-at="2015-02-08T20:20:36Z" finished-at="2015-02-08T20:20:36Z">
+    <test name="Default test" duration-ms="63223" started-at="2015-02-23T02:34:19Z" finished-at="2015-02-23T02:35:23Z">
+      <class name="com.projectJalapino.framework.test.TestSuit">
+        <test-method status="PASS" signature="brforeClass()[pri:0, instance:com.projectJalapino.framework.test.TestSuit@27c4b997]" name="brforeClass" is-config="true" duration-ms="8" started-at="2015-02-22T21:34:19Z" finished-at="2015-02-22T21:34:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.project.framework.main.BaseClass@3c9d026d]" name="beforeMethod" is-config="true" duration-ms="6227" started-at="2015-02-08T20:20:36Z" finished-at="2015-02-08T20:20:42Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.projectJalapino.framework.test.TestSuit@27c4b997]" name="beforeMethod" is-config="true" duration-ms="62572" started-at="2015-02-22T21:34:19Z" finished-at="2015-02-22T21:35:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:com.project.framework.main.BaseClass@3c9d026d]" name="testOne" duration-ms="5" started-at="2015-02-08T20:20:42Z" finished-at="2015-02-08T20:20:42Z">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.projectJalapino.framework.test.TestSuit@27c4b997]" name="testOne" duration-ms="5" started-at="2015-02-22T21:35:22Z" finished-at="2015-02-22T21:35:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.project.framework.main.BaseClass@3c9d026d]" name="afterMethod" is-config="true" duration-ms="628" started-at="2015-02-08T20:20:42Z" finished-at="2015-02-08T20:20:43Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.projectJalapino.framework.test.TestSuit@27c4b997]" name="afterMethod" is-config="true" duration-ms="625" started-at="2015-02-22T21:35:22Z" finished-at="2015-02-22T21:35:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.project.framework.main.BaseClass@3c9d026d]" name="afterClass" is-config="true" duration-ms="1" started-at="2015-02-08T20:20:43Z" finished-at="2015-02-08T20:20:43Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.projectJalapino.framework.test.TestSuit@27c4b997]" name="afterClass" is-config="true" duration-ms="0" started-at="2015-02-22T21:35:23Z" finished-at="2015-02-22T21:35:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.project.framework.main.BaseClass -->
+      </class> <!-- com.projectJalapino.framework.test.TestSuit -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

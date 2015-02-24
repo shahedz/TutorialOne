@@ -11,10 +11,13 @@ import org.testng.annotations.Test;
 import com.heatClinic.framework.controller.BaseController;
 import com.heatClinic.framework.main.BaseScript;
 
-public class NavigationTest extends BaseScript {
+public class NavigationTest extends BaseController {
 	
 	
-	
+	public NavigationTest(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
 
 	@Test
 	public void printOutAllTheLinksOnTheHomePage() {
@@ -31,7 +34,7 @@ public class NavigationTest extends BaseScript {
 	
 	@Test
 	public void verifyAllTheLinksInNavBar() {
-
+		hotSauceLinkVerificaiton();
 		
 //		String[] s = {"HOME", "HOT SAUCES", "MERCHANDISE", "CLEARANCE", "NEW TO HOT SAUCE?","FAQS" };
 //		

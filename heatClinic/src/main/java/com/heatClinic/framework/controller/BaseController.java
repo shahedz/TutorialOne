@@ -24,7 +24,7 @@ public class BaseController extends BaseScript {
 
 	 public BaseController(WebDriver driver) {
 	        super();
-	        PageFactory.initElements(driver, BaseController.class);
+	        PageFactory.initElements(driver, BaseScript.class);
 	    }
 //
 //	 @FindBy(xpath = "//div[@id='content']/nav/ul/li[2]/a") WebElement hotSauce;

@@ -24,17 +24,17 @@ public class BaseScript {
 	 @BeforeMethod
 	    public void beforeMethod() {
 		 
-		 	driver = new FirefoxDriver();
+		 	//driver = new FirefoxDriver();
 		 	
-//	    	ChromeOptions co = new ChromeOptions();
-//	 		co.addArguments("--test-type");
-//	 		DesiredCapabilities cap = DesiredCapabilities.chrome();
-//			cap.setCapability(ChromeOptions.CAPABILITY, co);
-//	 		
-//	        Boolean isLinux = System.getProperty("os.name").equals("Linux");
-//	       // System.setProperty("webdriver.chrome.driver", "../chromedriver" + (isLinux ? ".linux" : ".mac"));
-//	        System.setProperty("webdriver.chrome.driver", "../chromedriver");
-//	    	driver = new ChromeDriver(cap);
+	    	ChromeOptions co = new ChromeOptions();
+	 		co.addArguments("--test-type");
+	 		DesiredCapabilities cap = DesiredCapabilities.chrome();
+			cap.setCapability(ChromeOptions.CAPABILITY, co);
+	 		
+	        Boolean isLinux = System.getProperty("os.name").equals("Linux");
+	       // System.setProperty("webdriver.chrome.driver", "../chromedriver" + (isLinux ? ".linux" : ".mac"));
+	        System.setProperty("webdriver.chrome.driver", "../chromedriver");
+	    	driver = new ChromeDriver(cap);
 	        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	        driver.navigate().to("https://demo.broadleafcommerce.org/");
 	        driver.manage().window().maximize();
