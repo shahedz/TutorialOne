@@ -19,7 +19,8 @@ public class HomePageController extends ControllerBase {
 		homePageModel.gethotSauceItemOne().click();
 	}
 	
-	public void verifyHotSauceIsSelected(){
+	public void navigateToRegistrationPage(){
+		homePageModel.registrationButton().click();
 		
 	}
 }

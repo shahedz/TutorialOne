@@ -10,11 +10,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.broadLeaf.framework.controller.HomePageController;
+import com.broadLeaf.framework.controller.RegistrationController;
 
 public class BaseClass {
 	
 	protected WebDriver driver;
 	protected HomePageController homePageController;
+	protected RegistrationController registrationController;
 	
 	@BeforeClass
 	public void beforeClss(){
@@ -39,6 +41,8 @@ public class BaseClass {
 	        driver.manage().window().maximize();
 	       System.out.println("I am in BeforeMethod");
 	       homePageController = new HomePageController(driver);
+	       registrationController = new RegistrationController(driver);
+	       
 	    }
 	
 //	 public HomePageController home(WebDriver driver){

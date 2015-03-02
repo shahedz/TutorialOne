@@ -17,4 +17,12 @@ public class HomePageModel extends ModelBase{
 	  public WebElement gethotSauceItemOne() {
 		  return gethotSauceItemOne;
 	  } 
+	  
+	  @FindBy(how = How.XPATH, using = "//div[@id='cart_info']/a[2]")
+	  private WebElement registrationButton;
+
+	  public WebElement registrationButton() {
+		  return registrationButton;
+	  }
+	  
 }
