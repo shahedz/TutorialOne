@@ -27,6 +27,7 @@ public class BaseScript {
 		 	//driver = new FirefoxDriver();
 		 	
 	    	ChromeOptions co = new ChromeOptions();
+	    	
 	 		co.addArguments("--test-type");
 	 		DesiredCapabilities cap = DesiredCapabilities.chrome();
 			cap.setCapability(ChromeOptions.CAPABILITY, co);
