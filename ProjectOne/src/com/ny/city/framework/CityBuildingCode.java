@@ -28,4 +28,5 @@ public class CityBuildingCode {
 		long y = myAccountNumber + 100;
 		return y;
 	}
+	
 }
