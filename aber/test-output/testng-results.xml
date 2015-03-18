@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13202" started-at="2015-03-16T01:52:58Z" finished-at="2015-03-16T01:53:11Z">
+  <suite name="Default suite" duration-ms="15750" started-at="2015-03-16T19:25:09Z" finished-at="2015-03-16T19:25:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13202" started-at="2015-03-16T01:52:58Z" finished-at="2015-03-16T01:53:11Z">
+    <test name="Default test" duration-ms="15750" started-at="2015-03-16T19:25:09Z" finished-at="2015-03-16T19:25:25Z">
       <class name="com.aber.framework.test.ClearenceTest">
-        <test-method status="PASS" signature="beforeClss()[pri:0, instance:com.aber.framework.test.ClearenceTest@379d0c27]" name="beforeClss" is-config="true" duration-ms="10" started-at="2015-03-15T21:52:58Z" finished-at="2015-03-15T21:52:58Z">
+        <test-method status="PASS" signature="beforeClss()[pri:0, instance:com.aber.framework.test.ClearenceTest@2670d85b]" name="beforeClss" is-config="true" duration-ms="38" started-at="2015-03-16T15:25:09Z" finished-at="2015-03-16T15:25:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClss -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.aber.framework.test.ClearenceTest@379d0c27]" name="beforeMethod" is-config="true" duration-ms="12704" started-at="2015-03-15T21:52:58Z" finished-at="2015-03-15T21:53:11Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.aber.framework.test.ClearenceTest@2670d85b]" name="beforeMethod" is-config="true" duration-ms="15068" started-at="2015-03-16T15:25:09Z" finished-at="2015-03-16T15:25:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:com.aber.framework.test.ClearenceTest@379d0c27]" name="test" duration-ms="12" started-at="2015-03-15T21:53:11Z" finished-at="2015-03-15T21:53:11Z">
+        <test-method status="FAIL" signature="test()[pri:0, instance:com.aber.framework.test.ClearenceTest@2670d85b]" name="test" duration-ms="12" started-at="2015-03-16T15:25:25Z" finished-at="2015-03-16T15:25:25Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:41)
-	at com.aber.framework.controller.ClearenceController.becomeAMember(ClearenceController.java:21)
-	at com.aber.framework.test.ClearenceTest.test(ClearenceTest.java:15)
+	at com.aber.framework.controller.ClearenceController.actont3(ClearenceController.java:24)
+	at com.aber.framework.test.ClearenceTest.test(ClearenceTest.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -52,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.aber.framework.test.ClearenceTest@379d0c27]" name="afterMethod" is-config="true" duration-ms="450" started-at="2015-03-15T21:53:11Z" finished-at="2015-03-15T21:53:11Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.aber.framework.test.ClearenceTest@2670d85b]" name="afterMethod" is-config="true" duration-ms="583" started-at="2015-03-16T15:25:25Z" finished-at="2015-03-16T15:25:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.aber.framework.test.ClearenceTest@379d0c27]" name="afterClass" is-config="true" duration-ms="1" started-at="2015-03-15T21:53:11Z" finished-at="2015-03-15T21:53:11Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.aber.framework.test.ClearenceTest@2670d85b]" name="afterClass" is-config="true" duration-ms="1" started-at="2015-03-16T15:25:25Z" finished-at="2015-03-16T15:25:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

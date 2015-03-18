@@ -14,13 +14,13 @@ import com.aber.framework.controller.ClearenceController;
 
 /**
  * BaseClass 
- * @author shadedzyman
+ * @author 
  * Version 1.0
  */
 
 public class BaseClass {
 	
-	protected WebDriver driver = null;
+	protected WebDriver driver;
 	protected ClearenceController clearenceController;
 	
 	public BaseClass(){
@@ -45,9 +45,10 @@ public class BaseClass {
 	     clearenceController = new ClearenceController(driver);
 	 }
 	 
-	 public  ClearenceController aberCormbie(){
-		 return clearenceController;
-	 }
+//	 public  ClearenceController aberCormbie(){
+//		 if()
+//		 return clearenceController;
+//	 }
 	 
 	 @AfterMethod
 	    public void afterMethod() {

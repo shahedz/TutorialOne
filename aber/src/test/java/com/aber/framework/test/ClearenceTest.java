@@ -9,9 +9,16 @@ import com.aber.framework.main.BaseClass;
 
 public class ClearenceTest extends BaseClass{
 	
+	
 	 @Test
-	 public void test(){
+	 public void test() throws InterruptedException{
 		 System.out.println("its woroikgo");
-		 aberCormbie().becomeAMember();
+
+		// clearenceController.becomeAMember2();
+		 clearenceController.actont3();
+		
+		// Actions action = new Actions(driver);
+//		 WebElement signInElement =  driver.findElement(By.id("util-account"));
+//		 action.moveToElement(signInElement).moveToElement(driver.findElement(By.xpath("//div[@id='util-account-nav']/ul/li[2]/a[@class='util-account__link']"))).click().build().perform(); 
 	 }
 }

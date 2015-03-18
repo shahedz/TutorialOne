@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 public class ClearanceModel {
 	
 	protected WebDriver driver = null;
-	private WebElement signIn;
+	private WebElement getSignInButton;
 	private WebElement getBeComeAMemberButton;
 	
 	
