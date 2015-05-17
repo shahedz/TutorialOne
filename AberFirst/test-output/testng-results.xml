@@ -2,25 +2,24 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15750" started-at="2015-03-16T19:25:09Z" finished-at="2015-03-16T19:25:25Z">
+  <suite name="Default suite" duration-ms="14233" started-at="2015-05-16T23:42:09Z" finished-at="2015-05-16T23:42:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15750" started-at="2015-03-16T19:25:09Z" finished-at="2015-03-16T19:25:25Z">
+    <test name="Default test" duration-ms="14233" started-at="2015-05-16T23:42:09Z" finished-at="2015-05-16T23:42:24Z">
       <class name="com.aber.framework.test.ClearenceTest">
-        <test-method status="PASS" signature="beforeClss()[pri:0, instance:com.aber.framework.test.ClearenceTest@2670d85b]" name="beforeClss" is-config="true" duration-ms="38" started-at="2015-03-16T15:25:09Z" finished-at="2015-03-16T15:25:09Z">
+        <test-method status="PASS" signature="beforeClss()[pri:0, instance:com.aber.framework.test.ClearenceTest@2da8b2de]" name="beforeClss" is-config="true" duration-ms="10" started-at="2015-05-16T19:42:09Z" finished-at="2015-05-16T19:42:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClss -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.aber.framework.test.ClearenceTest@2670d85b]" name="beforeMethod" is-config="true" duration-ms="15068" started-at="2015-03-16T15:25:09Z" finished-at="2015-03-16T15:25:25Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.aber.framework.test.ClearenceTest@2da8b2de]" name="beforeMethod" is-config="true" duration-ms="13813" started-at="2015-05-16T19:42:09Z" finished-at="2015-05-16T19:42:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:com.aber.framework.test.ClearenceTest@2670d85b]" name="test" duration-ms="12" started-at="2015-03-16T15:25:25Z" finished-at="2015-03-16T15:25:25Z">
+        <test-method status="FAIL" signature="test()[pri:0, instance:com.aber.framework.test.ClearenceTest@2da8b2de]" name="test" duration-ms="8" started-at="2015-05-16T19:42:23Z" finished-at="2015-05-16T19:42:23Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:41)
-	at com.aber.framework.controller.ClearenceController.actont3(ClearenceController.java:24)
+	at com.aber.framework.controller.ClearenceController.actont3(ClearenceController.java:25)
 	at com.aber.framework.test.ClearenceTest.test(ClearenceTest.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
@@ -52,11 +51,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.aber.framework.test.ClearenceTest@2670d85b]" name="afterMethod" is-config="true" duration-ms="583" started-at="2015-03-16T15:25:25Z" finished-at="2015-03-16T15:25:25Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.aber.framework.test.ClearenceTest@2da8b2de]" name="afterMethod" is-config="true" duration-ms="384" started-at="2015-05-16T19:42:23Z" finished-at="2015-05-16T19:42:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.aber.framework.test.ClearenceTest@2670d85b]" name="afterClass" is-config="true" duration-ms="1" started-at="2015-03-16T15:25:25Z" finished-at="2015-03-16T15:25:25Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.aber.framework.test.ClearenceTest@2da8b2de]" name="afterClass" is-config="true" duration-ms="0" started-at="2015-05-16T19:42:24Z" finished-at="2015-05-16T19:42:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
