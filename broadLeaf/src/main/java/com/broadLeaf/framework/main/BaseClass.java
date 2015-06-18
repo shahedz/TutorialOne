@@ -3,7 +3,10 @@ package com.broadLeaf.framework.main;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -25,17 +28,17 @@ public class BaseClass {
 	
 	 @BeforeMethod
 	    public void beforeMethod() {
-//	    	ChromeOptions co = new ChromeOptions();
-//	 		co.addArguments("--test-type");
-//	 		DesiredCapabilities cap = DesiredCapabilities.chrome();
-//			cap.setCapability(ChromeOptions.CAPABILITY, co);
-//	 		
-//	        Boolean isLinux = System.getProperty("os.name").equals("Linux");
-//	       // System.setProperty("webdriver.chrome.driver", "../chromedriver" + (isLinux ? ".linux" : ".mac"));
-//	        System.setProperty("webdriver.chrome.driver", "../chromedriver");
-//	    	driver = new ChromeDriver(cap);
+	    	ChromeOptions co = new ChromeOptions();
+	 		co.addArguments("--test-type");
+	 		DesiredCapabilities cap = DesiredCapabilities.chrome();
+			cap.setCapability(ChromeOptions.CAPABILITY, co);
+	 		
+	        Boolean isLinux = System.getProperty("os.name").equals("Linux");
+	       // System.setProperty("webdriver.chrome.driver", "../chromedriver" + (isLinux ? ".linux" : ".mac"));
+	        System.setProperty("webdriver.chrome.driver", "../chromedriver");
+	    	driver = new ChromeDriver(cap);
 		 
-		    driver = new FirefoxDriver();
+		    //driver = new FirefoxDriver();
 	        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	        driver.navigate().to("https://demo.broadleafcommerce.org/");
 	        driver.manage().window().maximize();
